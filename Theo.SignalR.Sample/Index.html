@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SignalR Sample</title>
+	<meta charset="utf-8" />
+    <link href="Content/DataTables/css/jquery.dataTables.css" rel="stylesheet" />
+    <link href="Content/css/Tasks.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Task List</h2>
+    <div class="loading">
+    </div>
+    <br />
+    <div id="stopAlert"><h2>Task updating has been stopped from another client!</h2></div>
+    <input type="button" id="AutoUpdate" value="Auto update task status" />
+    <br />
+    <br />
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="taskTable">
+        <thead>
+            <tr>
+                <th>TaskID</th>
+                <th>Name</th>
+                <th>Owner</th>
+                <th>Done?</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script src="Scripts/jquery-1.7.min.js"></script>
+    <script src="Scripts/jquery-1.7.js"></script>
+    <script src="Scripts/DataTables/jquery.dataTables.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="SignalR/hubs"></script>
+    <script src="Scripts/Task.js"></script>
+
+</body>
+</html>
