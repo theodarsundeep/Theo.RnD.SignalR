@@ -8,6 +8,8 @@ Have tried out some of the new C#6.0 features here in the FakeTask.cs class
 
 Refrences :
 http://www.asp.net/signalr
+
 http://www.codeproject.com/Articles/1018938/SignalR-ASP-NET-Way-of-Socket-Programming
+
 https://msdn.microsoft.com/en-us/magazine/dn802602.aspx
 
